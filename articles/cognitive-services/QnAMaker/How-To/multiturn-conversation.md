@@ -48,7 +48,7 @@ When you create a knowledge base, the **Populate your KB** section displays an *
 
 ![Check box for enabling multi-turn extraction](../media/conversational-context/enable-multi-turn.png)
 
-When you select this option, QnA Maker extracts the hierarchy present in the document structure. The hierarchy is converted in to follow up prompts and the root of the hierarchy serves as the parent QnA. In some documents the root of the hierarchy does not have content which could serve as an answer, you can provide the 'Default Answer Text' to be used as a substitute answer text to extract such hierarchies.
+When you select this option, QnA Maker extracts the hierarchy present in the document structure. The hierarchy is converted into follow up prompts and the root of the hierarchy serves as the parent QnA. In some documents the root of the hierarchy does not have content which could serve as an answer, you can provide the 'Default Answer Text' to be used as a substitute answer text to extract such hierarchies.
 
 Multi-turn structure can be inferred only from URLs, PDF files, or DOCX files. For an example of structure, view an image of a [Microsoft Surface user manual PDF file](https://github.com/Azure-Samples/cognitive-services-sample-data-files/blob/master/qna-maker/data-source-formats/product-manual.pdf).
 
